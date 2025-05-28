@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Organisasi Modern & Simple</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Menggunakan font Inter sebagai default */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Efek smooth scroll untuk navigasi */
+        html {
+            scroll-behavior: smooth;
+        }
+        /* Styling tambahan jika diperlukan */
+        .hero-bg {
+            background-image: url('https://placehold.co/1920x1080/a0aec0/ffffff?text=Gambar+Latar+Organisasi');
+            background-size: cover;
+            background-position: center;
+        }
+        .section-title {
+            @apply text-3xl font-bold text-gray-800 mb-4 text-center;
+        }
+        .section-subtitle {
+            @apply text-lg text-gray-600 mb-12 text-center max-w-2xl mx-auto;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-blue-600">Nama Organisasi</a>
+            <div class="space-x-4">
+                <a href="#beranda" class="text-gray-600 hover:text-blue-600 transition duration-300">Beranda</a>
+                <a href="#tentang" class="text-gray-600 hover:text-blue-600 transition duration-300">Tentang Kami</a>
+                <a href="#program" class="text-gray-600 hover:text-blue-600 transition duration-300">Program</a>
+                <a href="#kontak" class="text-gray-600 hover:text-blue-600 transition duration-300">Kontak</a>
+            </div>
+        </nav>
+    </header>
+
+    <section id="beranda" class="hero-bg text-white min-h-screen flex items-center">
+        <div class="bg-black bg-opacity-50 w-full h-full flex items-center">
+            <div class="container mx-auto px-6 text-center py-20">
+                <h1 class="text-5xl md:text-6xl font-bold mb-6 leading-tight">Membangun Masa Depan Bersama</h1>
+                <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">Organisasi kami berdedikasi untuk menciptakan dampak positif melalui program-program inovatif dan kolaboratif.</p>
+                <a href="#tentang" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg text-lg transition duration-300 shadow-lg">Pelajari Lebih Lanjut</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="tentang" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="section-title">Tentang Kami</h2>
+            <p class="section-subtitle">Kenali lebih dekat visi, misi, dan nilai-nilai yang menjadi landasan organisasi kami dalam berkontribusi untuk masyarakat.</p>
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <img src="https://placehold.co/600x400/e2e8f0/333333?text=Tim+Kami" alt="Tim Organisasi" class="rounded-lg shadow-xl w-full">
+                </div>
+                <div class="text-gray-700 text-lg">
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-3">Misi Kami</h3>
+                    <p class="mb-4">Misi kami adalah untuk memberdayakan individu dan komunitas melalui [sebutkan fokus utama organisasi Anda, misal: pendidikan, lingkungan, kesehatan]. Kami percaya bahwa dengan [sebutkan pendekatan Anda], kita dapat mencapai perubahan yang berkelanjutan.</p>
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-3">Visi Kami</h3>
+                    <p class="mb-4">Visi kami adalah terwujudnya [sebutkan kondisi ideal yang ingin dicapai, misal: masyarakat yang adil dan sejahtera, lingkungan yang lestari].</p>
+                    <a href="#kontak" class="text-blue-600 hover:text-blue-700 font-semibold transition duration-300">Bergabung dengan Kami &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="program" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="section-title">Program Unggulan Kami</h2>
+            <p class="section-subtitle">Kami menjalankan berbagai program yang dirancang untuk memberikan dampak nyata dan positif. Berikut adalah beberapa program unggulan kami:</p>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <div class="text-blue-600 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v11.494m0 0A8.966 8.966 0 013.75 15.75c-1.012 0-1.973-.292-2.803-.816M12 17.747c1.012 0 1.973.292 2.803.816M12 17.747V6.253m0 11.494A8.966 8.966 0 0020.25 15.75c1.012 0 1.973-.292 2.803-.816M12 17.747A8.969 8.969 0 0112 21c-2.485 0-4.735-1.007-6.364-2.636M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-3 text-center">Program Edukasi</h3>
+                    <p class="text-gray-600 text-center">Meningkatkan kualitas pendidikan melalui workshop, pelatihan, dan penyediaan sumber belajar.</p>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                     <div class="text-blue-600 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.428 15.428a4.109 4.109 0 00-5.815-5.815M19.428 15.428L15 20l-4.428-4.572M19.428 15.428A4.108 4.108 0 0115.32 11.32a4.108 4.108 0 014.108 4.108zM4.572 8.572a4.109 4.109 0 005.815 5.815M4.572 8.572L9 4l4.428 4.572M4.572 8.572A4.108 4.108 0 018.68 12.68a4.108 4.108 0 01-4.108-4.108z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-3 text-center">Pemberdayaan Komunitas</h3>
+                    <p class="text-gray-600 text-center">Mengembangkan potensi komunitas lokal untuk kemandirian ekonomi dan sosial.</p>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                     <div class="text-blue-600 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-3 text-center">Advokasi Kebijakan</h3>
+                    <p class="text-gray-600 text-center">Mendorong perubahan kebijakan yang lebih baik untuk isu-isu [sebutkan isu, misal: lingkungan, kesetaraan gender].</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-blue-600 text-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-4 text-center">Apa Kata Mereka?</h2>
+            <p class="text-lg mb-12 text-center max-w-2xl mx-auto opacity-90">Dengarkan pengalaman dari mereka yang telah merasakan manfaat dari program-program kami.</p>
+            <div class="bg-white bg-opacity-20 p-8 rounded-lg shadow-xl max-w-2xl mx-auto">
+                <p class="text-xl italic mb-4">"Organisasi ini benar-benar mengubah cara pandang saya terhadap [topik terkait]. Programnya sangat bermanfaat dan timnya sangat suportif!"</p>
+                <p class="font-semibold text-right">- Nama Penerima Manfaat/Partner</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="kontak" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="section-title">Hubungi Kami</h2>
+            <p class="section-subtitle">Kami senang mendengar dari Anda! Jangan ragu untuk menghubungi kami untuk pertanyaan, kolaborasi, atau dukungan.</p>
+            <div class="max-w-lg mx-auto bg-gray-50 p-8 rounded-lg shadow-lg">
+                <form action="#" method="POST">
+                    <div class="mb-4">
+                        <label for="nama" class="block text-gray-700 font-semibold mb-2">Nama Lengkap</label>
+                        <input type="text" id="nama" name="nama" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500" required>
+                    </div>
+                    <div class="mb-4">
+                        <label for="email" class="block text-gray-700 font-semibold mb-2">Alamat Email</label>
+                        <input type="email" id="email" name="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500" required>
+                    </div>
+                    <div class="mb-4">
+                        <label for="pesan" class="block text-gray-700 font-semibold mb-2">Pesan Anda</label>
+                        <textarea id="pesan" name="pesan" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500" required></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg transition duration-300 shadow-md">Kirim Pesan</button>
+                    </div>
+                </form>
+            </div>
+             <div class="mt-12 text-center text-gray-700">
+                <p class="text-lg font-semibold">Alamat Kantor:</p>
+                <p>Jl. Contoh Alamat No. 123, Kota Anda, Kode Pos</p>
+                <p class="mt-2"><span class="font-semibold">Email:</span> info@namaorganisasi.com | <span class="font-semibold">Telepon:</span> (021) 123-4567</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 text-gray-300 py-12">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; <span id="tahun"></span> Nama Organisasi. Semua Hak Dilindungi.</p>
+            <div class="mt-4 space-x-4">
+                <a href="#" class="hover:text-white transition duration-300">Facebook</a>
+                <a href="#" class="hover:text-white transition duration-300">Instagram</a>
+                <a href="#" class="hover:text-white transition duration-300">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Script untuk tahun di footer
+        document.getElementById('tahun').textContent = new Date().getFullYear();
+    </script>
+
+</body>
+</html>
