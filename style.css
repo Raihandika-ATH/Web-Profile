@@ -1,0 +1,83 @@
+/* Menggunakan font Inter sebagai default */
+body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6; /* Menambahkan spasi antar baris untuk keterbacaan */
+}
+
+/* Efek smooth scroll untuk navigasi */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Styling untuk Hero Section Background */
+.hero-bg {
+    /* Ganti URL ini dengan URL gambar latar belakang organisasi Anda yang sebenarnya */
+    background-image: url('https://placehold.co/1920x1080/2c5282/ffffff?text=Selamat+Datang+di+KlubFisika+13+Yogyakarta');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Memberikan efek parallax sederhana */
+}
+
+/* Styling untuk Judul Bagian (Section Title) */
+.section-title {
+    /* Kelas Tailwind @apply digunakan di sini untuk konsistensi,
+       tetapi bisa juga ditulis sebagai CSS biasa jika tidak menggunakan build process Tailwind */
+    /* Contoh CSS biasa:*/
+    font-size: 2.25rem; 36px
+    font-weight: 700;
+    color: #2d3748, gray-800;
+    margin-bottom: 1rem;
+    text-align: center;
+    
+}
+
+/* Styling untuk Sub-judul Bagian (Section Subtitle) */
+.section-subtitle {
+    /* Contoh CSS biasa:*/
+    font-size: 1.125rem; /* 18px */
+    color: #4a5568; /* gray-600 */
+    margin-bottom: 3rem;
+    text-align: center;
+    max-width: 42rem; /* max-w-2xl */
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+/* Styling tambahan untuk logo di header jika diperlukan */
+/* Misalnya, jika ingin memberi border atau efek khusus pada logo */
+
+.header-logo img {
+    border: 2px solid #4299e1; // Contoh border biru
+}
+
+
+/* Styling untuk kartu program agar memiliki tinggi yang sama jika diinginkan */
+
+.program-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+/* Pastikan Tailwind CSS @apply directives diproses jika Anda menggunakan PostCSS
+   Jika tidak, Anda harus menulis ulang kelas .section-title dan .section-subtitle
+   dengan properti CSS standar seperti contoh yang dikomentari di atas.
+   Namun, karena kita mengimpor Tailwind via CDN, kelas @apply di sini
+   tidak akan berfungsi secara langsung di file CSS eksternal tanpa build step.
+   Untuk kesederhanaan, kita akan mengandalkan kelas Tailwind langsung di HTML
+   dan hanya memindahkan style yang benar-benar custom atau override ke file ini.
+*/
+
+/* Untuk penggunaan @apply di CSS eksternal, biasanya diperlukan proses build dengan Tailwind CLI.
+   Karena kita menggunakan CDN, kita akan membiarkan kelas Tailwind tetap di HTML
+   dan hanya memindahkan style yang benar-benar custom ke sini. */
+
+/* Contoh style custom yang bisa ditambahkan: */
+.nav-link-active {
+    color: #2b6cb0; /* Warna biru yang lebih gelap untuk link navigasi aktif */
+    font-weight: 600;
+}
+
+/* Anda bisa menambahkan lebih banyak style custom di sini sesuai kebutuhan. */
